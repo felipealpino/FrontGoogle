@@ -1,0 +1,127 @@
+body,ul,li{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 50px;
+}
+.header .lado-direito ul {
+    display: flex;
+    padding: 10px 30px 0 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header .lado-direito ul li{
+    list-style: none;
+    font-size: 14px;
+    color: #5e5a5a;
+}
+.header .lado-direito ul li img{
+    width: 19px;
+}
+.header .lado-direito ul li + li{
+    padding: 0 0 0 15px;
+}
+.header .lado-direito ul li div{
+    width: 32px;
+    height: 32px;
+    background-color: #004D40;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .lado-direito ul li div span{
+    color: white;
+    font-size: 18px;
+}
+
+.content .imagem-google{
+    text-align: center;
+}
+
+.content .buscador{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.content img{
+    padding-top:110px ;
+}
+.buscar-item{
+    width: 460px;
+    height: 40px;
+    border: 1px solid #c6c6c6;
+    border-radius: 20px;
+    display: flex;
+}
+
+.botoes{
+    justify-content: center;
+    display: flex;
+}
+.botoes .botao{
+    border: 1px solid #c6c6c6;
+    margin: 11px 4px 11px 4px;
+    padding: 12px;
+    border-radius: 5px;
+    color: #5e5a5a;
+    min-width: 55px;
+    background-color: #F8F8F8;
+    font-size: 14px;
+    text-align: center;
+}
+
+.msg-google{
+    margin-top: 15px;
+    text-align: center;
+}
+.msg-google span{
+    font-size: 13px;
+}
+.msg-google span a{
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #F2F2F2;
+    border-top: 1px solid #c9c5c5;
+
+    color: #5e5a5a;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+}
+.footer-cima{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 27px;
+}
+
+.footer-baixo{
+    display: flex;
+    border-top: 1px solid #c9c5c5;
+    height: 40px;    
+}
+.footer-baixo ul{
+    display: flex;
+    line-height: 40px;
+}
+.footer-baixo ul li{
+    list-style: none;
+    padding-left: 27px;
+}
+.footer-baixo-esquerda{
+    width: 50%;
+}
+.footer-baixo-direita{
+    width: 50%;
+}
+.footer-baixo-direita ul{
+    justify-content: flex-end;
+    padding-right: 27px;
+}
+
