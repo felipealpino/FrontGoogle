@@ -9,7 +9,7 @@ body,ul,li{
 }
 .header .lado-direito ul {
     display: flex;
-    padding: 10px 30px 0 30px;
+    padding: 15px 35px 0 30px;
     justify-content: flex-end;
     align-items: center;
 }
@@ -18,11 +18,20 @@ body,ul,li{
     font-size: 14px;
     color: #5e5a5a;
 }
+.header .lado-direito ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .lado-direito ul li a:hover{
+    text-decoration: underline;
+}
+
 .header .lado-direito ul li img{
     width: 19px;
 }
 .header .lado-direito ul li + li{
-    padding: 0 0 0 15px;
+    padding: 0 0 0 25px;
 }
 .header .lado-direito ul li div{
     width: 32px;
@@ -52,19 +61,73 @@ body,ul,li{
     padding-top:110px ;
 }
 .buscar-item{
-    width: 460px;
-    height: 40px;
-    border: 1px solid #c6c6c6;
-    border-radius: 20px;
+    width: 584px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
     display: flex;
 }
+.lupa-icon-side{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.lupa-icon{
+    height: 20px;
+    width: 20px;
+    margin-left:14px ;
+    margin-right: 13px;
+}
+.lupa-icon img{
+    width: 20px;
+    padding: 0;
+}
+
+.input-part{
+    display: flex;
+    align-items: center;
+}
+.buscar-item input{
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 34px;
+    flex: 100%;
+    width: 447px;
+    height: 34px;
+}
+
+.keyboard-microfone-icon{
+    display: flex;
+    align-items: center;
+}
+.keyboard-icon{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.keyboard-icon img{
+    width: 27px;
+    padding: 0;
+}
+
+.microfone-icon{
+    padding-left: 8px;
+
+}
+.microfone-icon img {
+    width: 15px;
+    padding: 0;
+}
+
 
 .botoes{
     justify-content: center;
     display: flex;
 }
 .botoes .botao{
-    border: 1px solid #c6c6c6;
+    border: 1px solid #dfe1e5;
     margin: 11px 4px 11px 4px;
     padding: 12px;
     border-radius: 5px;
@@ -73,6 +136,15 @@ body,ul,li{
     background-color: #F8F8F8;
     font-size: 14px;
     text-align: center;
+}
+.botoes .botao:hover{
+    border: 1px solid #C6C6C6;
+    background-color: #fafafa;
+    color: rgb(49, 48, 48);
+}
+
+.botoes  a {
+    text-decoration: none;
 }
 
 .msg-google{
@@ -110,6 +182,14 @@ body,ul,li{
     display: flex;
     line-height: 40px;
 }
+.footer-baixo ul a{
+    text-decoration: none;
+    color: #5e5a5a;
+}
+.footer-baixo ul a:hover{
+    text-decoration: underline;
+}
+
 .footer-baixo ul li{
     list-style: none;
     padding-left: 27px;
